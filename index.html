@@ -6,6 +6,37 @@
     <title>Document</title>
 </head>
 <body>
+
+      <!-- БЭМ - методология -->
+
+    <!-- БЭМ-блок 'header' -->
+    <header class="header">
+        <!-- БЭМ-элемент 'header__inner' -->
+        <div class="header__inner"> 
+            <!-- БЭМ-элемент 'header__logo' &&  БЭМ-блок 'logo' -->
+            <a class="header__logo logo" href="#">
+                <!-- БЭМ-элемент 'logo__image' -->
+                <img class="logo__image" src="">
+            </a>
+
+            <!-- БЭМ-элемент 'header__menu' -->
+            <nav class="header__menu">
+                <!-- БЭМ-элемент 'header__menu-list' -->
+                <ul class="header__menu-list">
+                    <!-- БЭМ-элемент 'header__menu-item' -->
+                    <li class="header__menu-item">
+                        <!-- БЭМ-элемент 'header__menu-link' -->
+                        <a class="header__menu-link"></a>
+                    </li>
+                    <li class="header__menu-item"></li>
+                    <li class="header__menu-item"></li>
+                </ul>
+            </nav>
+
+            <button class="header__button button button--transparent" type="button"></button>
+        </div>
+
+    </header>
     
 </body>
 </html>
