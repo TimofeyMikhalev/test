@@ -1,0 +1,16 @@
+@import  
+    'normalize',
+    'fonts',
+    'globals',
+    'media',
+    'mixins',
+    'utils',
+    'variables';
+
+
+
+@import 'blocks/header';
+
+body {
+    background-color: aqua;
+}
